@@ -150,15 +150,16 @@ methodCollection.logHello()
   Return a new object with all of the information that you passed in.
 */
 
-// makePerson = (name, bd, ssn) => {
-//   return {
-//     name: name,
-//     bd: bd,
-//     ssn: ssn
-//   }
-// }
+makePerson = (name, bd, ssn) => {
+  return {
+    name: name,
+    bd: bd,
+    ssn: ssn
+  }
+}
 
-// makePerson("Greg", "01/01/2020","5")
+makePerson("Greg", "01/01/2020","5")
+
 ////////// PROBLEM 7 //////////
 
 /*
@@ -166,10 +167,10 @@ methodCollection.logHello()
   Return that object so that whenever you invoke makeCard, you get a brand new credit card.
 */
 
-// makeCard = (cardNum, expDate, secCode) => {
-//   return cc = {
-//     cardNum,
-//     expDate,
-//     secCode
-//   }
-// }
+makeCard = (cardNum, expDate, secCode) => {
+  return cc = {
+    cardNum,
+    expDate,
+    secCode
+  }
+}
