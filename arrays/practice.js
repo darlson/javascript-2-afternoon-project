@@ -150,12 +150,13 @@ methodCollection.logHello()
   Return a new object with all of the information that you passed in.
 */
 
-makePerson = (name, bd, ssn) => {
-  return {
-    name: name,
-    bd: bd,
-    ssn: ssn
+const makePerson = (name, birthday, ssn) => {
+  let obj = {
+    name,
+    birthday,
+    ssn
   }
+  return obj
 }
 
 makePerson("Greg", "01/01/2020","5")
