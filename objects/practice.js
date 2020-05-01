@@ -121,8 +121,16 @@ var numbersArray = [1,2,34,54,55,34,32,11,19,17,54,66,13];
   and the second item in the array being the odds array (all the odd values from numbersArray).
 */
 
-const divider = (numbersArray) => {
-  return 
+const divider = (arr) => {
+  let evenArray = [];
+  let oddArray = [];
+  for (let i = arr.length-1; i >= 0; i--) {
+    if (arr[i] % 2 === 0) {
+      evenArray.unshift(arr[i])
+    } else oddArray.unshift(arr[i])
+  } 
+  let fullArray = [evenArray, oddArray]
+  return fullArray
 }
 
 

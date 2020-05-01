@@ -150,6 +150,7 @@ methodCollection.logHello()
   Return a new object with all of the information that you passed in.
 */
 
+
 const makePerson = (name, birthday, ssn) => {
   let obj = {
     name,
